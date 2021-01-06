@@ -16,3 +16,19 @@ But once we train the network, we notice some emerging patters. We can think abo
 
 
 ![alt text](https://github.com/MichalPitr/NeuralNetworkFromScratch/blob/main/imgs/trained_weights.png)
+
+
+## Mean Squared Error vs Cross Entropy Loss
+
+I was curious whether Cross Entropy Loss would produce differently looking weights from MSE Loss which I used to generate the images above. Perhaps surprisingly, the difference is stark! 
+
+### Mean Squared Error Loss 
+We can see that the weights aren't completely random, but there are no obvious features to be seem.
+
+![alt text](https://github.com/MichalPitr/NeuralNetworkFromScratch/blob/main/imgs/MSEloss.png)
+
+
+### Cross Entropy Loss
+Compare that with the image below, which has clear features, such as lines and curves. Clearly CE loss is (at least in this example) better at propagating back the error signal to the neurons in the previous layers. 
+
+![alt text](https://github.com/MichalPitr/NeuralNetworkFromScratch/blob/main/imgs/CrossEntropyLoss.png)
