@@ -23,7 +23,7 @@ But once we train the network, we notice some emerging patters. We can think abo
 I was curious whether Cross Entropy Loss would produce differently looking weights from MSE Loss which I used to generate the images above. Perhaps surprisingly, the difference is stark! 
 
 ### Mean Squared Error Loss 
-We can see that the weights aren't completely random, but there are no obvious features to be seem.
+We can see that the weights aren't completely random, but there are no obvious features to be seen.
 
 ![alt text](https://github.com/MichalPitr/NeuralNetworkFromScratch/blob/main/imgs/MSEloss.png)
 
